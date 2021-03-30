@@ -1,6 +1,6 @@
 pipeline{
         environment{
-            DB_PASSWORD='root'
+            'DB_PASSWORD'='root'
         }
         agent any
         stages{
