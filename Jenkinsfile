@@ -1,4 +1,7 @@
 pipeline{
+        environment{
+            DB_PASSWORD=${DB_PASSWORD}
+        }
         agent any
         stages{
             stage('Run App'){
