@@ -2,8 +2,8 @@ pipeline{
         agent any
         environment {
             app_version = 'v1'
-            rollback = 'false'
-            DB_PASSWORD='root'
+            rollback = 'true'
+            DB_PASSWORD='password'
         }
         stages{
             stage('Build Image'){
